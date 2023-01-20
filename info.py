@@ -42,16 +42,16 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/DEMIGOD_CYBER_SUPPORT')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DEMIGOD_CYBERV1')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/DEMIGOD_CYBER_SUPPORT')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/DEMIGOD_TECH_SUPPORT')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DEMIGOD_TECH')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/DEMIGOD_TECH_SUPPORT')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001890814188))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001581210467))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/DEMIGOD_CYBERV1')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/DEMIGOD_CYBERV1/3')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/DEMIGOD_TECH')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/DEMIGOD_TECH/3')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001852141625))
