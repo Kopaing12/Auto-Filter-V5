@@ -54,8 +54,8 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/DEMIGOD_TECH')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/DEMIGOD_TECH/3')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001852141625))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001892118007))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL',- -1001852141625))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL',- -1001892118007))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
