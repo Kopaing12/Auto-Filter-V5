@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'MDIDK MOVIE')
 API_ID = int(environ.get('API_ID', '9091254'))
 API_HASH = environ.get('API_HASH', '154b6d594e25554186f76b26d695ba93')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5770385025:AAG2mvxjmFWc5_xiYwH4wHqk7sMs1aS7-Lg")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5928645003:AAHU1pkuughNY1LHDezO10eY7aI2Ux0qSuY")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -27,7 +27,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5122819277').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1113630298').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001645003182').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -54,7 +54,7 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/DEMIGOD_TECH')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/DEMIGOD_TECH/3')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001852141625))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001254905376))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001892118007))
 
 # Bot Options
